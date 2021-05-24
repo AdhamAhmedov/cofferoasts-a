@@ -1,0 +1,89 @@
+.section-choice{
+    margin-bottom: 350px;
+width: 1280px;
+height: 577px;
+padding-top: 100px;
+background-color: #2C343E;
+border-radius: 10px;
+}
+
+
+.section-choice__heading{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+color: #FEFCF7;
+
+}
+
+
+.section-choice__discription{
+    width: 540px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+
+.section-choice__list{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    list-style: none;
+}
+
+.section-choice__list-item{
+    margin: 15px;
+    padding: 48px;
+    width: 350px;
+    height: 382px;
+    background: #0E8784;
+border-radius: 8px;
+}
+
+.section-choice__image{
+    
+    margin-bottom: 55px;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+
+.section-choice__link{
+    text-decoration: none;
+}
+
+.section-choice__list-item__heading{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+color: #FEFCF7;
+
+}
+
+
+.section-choice__list-item__discription{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+
+color: #FEFCF7;
+
+}

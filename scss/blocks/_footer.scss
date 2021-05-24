@@ -1,0 +1,44 @@
+.site-footer{
+    display: flex;
+   align-items: center;
+   margin-bottom: 100px;
+   padding: 0px 85px;
+   width: 1280px;
+   height: 120px;
+   background: #2C343E;
+}
+
+
+.site-footer__logo{
+   text-decoration: none;
+   
+   margin-right: 100px;
+
+}
+
+.site-footer__link{
+   margin-right: 30px;
+   text-decoration: none;
+   font-family: 'Barlow';
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+}
+
+.site-footer__link:hover{
+   color: #f3f3fc;
+}
+
+.site-footer__messenjer{
+   
+   margin-left: 24px;
+   text-decoration: none;  
+}
+
+.icon_facebook{
+   margin-left: auto;
+}

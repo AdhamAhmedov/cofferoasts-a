@@ -1,0 +1,51 @@
+.Our-headquarters-wrapper{
+
+margin-bottom: 170px;
+}
+
+.Our-headquarters_heading{
+    display: block;
+    margin-bottom: 70px;
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+
+}
+
+.Our-headquarters__list{
+    display: flex;
+    justify-content: start;
+padding: 0%;
+list-style: none;
+
+}
+
+.Our-headquarters__list-item{
+    margin-right: 95px;
+width: 285px;
+
+}
+
+.Our-headquarters__list-item h3{
+
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+
+}
+
+.Our-headquarters__list-item p{
+width: 150px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}

@@ -1,0 +1,102 @@
+.site-header{
+     
+
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+
+.site_logo{
+    margin-right: auto;
+    text-decoration: none;
+    
+}
+
+.header__nav-link{
+    margin-left: 30px;
+    
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #83888F;
+
+}
+
+.header__nav-link:hover{
+  color: #141414;
+}
+
+.header__nav-link:active{
+
+  color: #141414;
+}
+
+.header__hero-section{
+    margin-bottom: 140px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/bacground-image-1.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.hero-section__info{
+   display: flex;
+   flex-direction: column;
+   
+    width: 493px;
+    margin-left: 100px;
+
+}
+
+.hero-section__heading{
+    margin: 0%;
+    margin-bottom: 40px;
+    width: 100%;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+}
+
+.hero-section__discription{
+    margin: 0%;
+    margin-bottom: 60px;
+    width: 400px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+.hero-section__link{
+  width: 217px;
+  background: #0E8784;
+border-radius: 6px;
+padding: 12px 23px;
+text-align: center;
+  text-decoration: none;
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 25px;
+color: #FEFCF7;
+
+}
+
+.hero-section__link:hover{
+  background: #66D2CF;
+}
