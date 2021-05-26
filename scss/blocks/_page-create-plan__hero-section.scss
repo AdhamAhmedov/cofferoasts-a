@@ -1,0 +1,41 @@
+.create-plan__hero-section-wrapper{
+    margin-bottom: 170px;
+    padding: 134px 80px;
+    background-image: url(../images/create-plan.jpg);
+    background-repeat: no-repeat;
+    background-size: 1280px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+    .create-plan__hero-section-wrapper{
+        background-image: url('/images/create-plan-2x.jpg');
+    }
+} 
+
+.create-plan__hero-section__heading{
+    font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+
+}
+
+.create-plan__hero-section__discription{
+    width: 450px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+
+}
