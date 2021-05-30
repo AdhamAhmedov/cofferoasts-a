@@ -48,9 +48,9 @@
         </section>
 
 
-        <section class="create-plan__box container">
+        <section>
 
-            <div>
+            <div class="create-plan__box container">
 
                 <div class="container_small">
 
@@ -122,9 +122,335 @@
 
         </section>
 
+        <section class="service">
+
+            <div class="service-wrapper container_small">
+
+                <div class="service__box-left">
+
+                    <ol class="service__list">
+                        <li class="service__list-item"><span class="list__span-1">1</span><a class="list__link-1"
+                                href="#preferences">Preferences</a>
+                        </li>
+
+                        <li class="service__list-item"><span>2</span><a href="#bean-type">Bean
+                                Type</a></li>
+
+                        <li class="service__list-item"><span>3</span><a href="#quantity">Quantity</a></li>
+
+                        <li class="service__list-item"><span>4</span><a href="#grind option">Grind Option</a></li>
+
+                        <li class="service__list-item"><span>5</span><a href="#Deliveries">Deliveries</a></li>
+                    </ol>
+
+                </div>
+                <!-- ================================================================== -->
+
+                <form class="service__box-right">
+
+
+                    <div class="box-right__wrapper-header">
+
+                        <h3 class="service__box-right__heading">How do you drink your coffee?</h3>
+
+                        <button class="box-right__button-icon">
+                            <img class="service__box-right__image" id='preferences' src="./images/icon-top.svg"
+                                alt="bu yerda icon bor" width="19" height="12">
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="chacced-info-wrapper">
+
+                        <label class="form__label">
+                            <input name="coffe" type="radio" value="Capsule"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Capsule</h4>
+                                <p>Compatible with Nespresso systems and similar brewers</p>
+                            </span>
+                        </label>
+
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Filter"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Filter</h4>
+                                <p>For pour over or drip methods like Aeropress, Chemex, and V60</p>
+                            </span>
+                        </label>
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Espresso"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Espresso</h4>
+                                <p>Dense and finely ground beans for an intense, flavorful experience</p>
+                            </span>
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- ============================================= -->
+
+
+                    <div class="box-right__wrapper-header">
+
+                        <h3 class="service__box-right__heading">What type of coffee?</h3>
+
+                        <button class="box-right__button-icon">
+                            <img class="service__box-right__image" id='bean-type' src="./images/icon-top.svg"
+                                alt="bu yerda icon bor" width="19" height="12">
+
+                        </button>
+
+                    </div>
+
+                    <div class="chacced-info-wrapper">
+
+                        <label class="form__label">
+                            <input name="coffe" type="radio" value="Single Origin"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Single Origin</h4>
+                                <p>Distinct, high quality coffee from a specific family-owned farm</p>
+                            </span>
+                        </label>
+
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Decaf"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Decaf</h4>
+                                <p>Just like regular coffee, except the caffeine has been removed</p>
+                            </span>
+                        </label>
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Blended"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Blended</h4>
+                                <p>Combination of two or three dark roasted beans of organic coffees</p>
+                            </span>
+
+                        </label>
+
+                    </div>
+                    <!-- ======================================== -->
+
+                    <div class="box-right__wrapper-header">
+
+                        <h3 class="service__box-right__heading">How much would you like?</h3>
+
+                        <button class="box-right__button-icon">
+                            <img class="service__box-right__image" id='quantity' src="./images/icon-top.svg"
+                                alt="bu yerda icon bor" width="19" height="12">
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="chacced-info-wrapper">
+
+                        <label class="form__label">
+                            <input name="coffe" type="radio" value="250"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>250g</h4>
+                                <p>Perfect for the solo drinker. Yields about 12 delicious cups.</p>
+                            </span>
+                        </label>
+
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="500gf"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>500g</h4>
+                                <p>Perfect option for a couple. Yields about 40 delectable cups.</p>
+                            </span>
+                        </label>
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="1000g"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>1000g</h4>
+                                <p>Perfect for offices and events. Yields about 90 delightful cups.</p>
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                    <!-- ======================================== -->
+
+                    <div class="box-right__wrapper-header">
+
+                        <h3 class="service__box-right__heading">Want us to grind them?</h3>
+
+                        <button class="box-right__button-icon">
+                            <img class="service__box-right__image" id='grind option' src="./images/icon-top.svg"
+                                alt="bu yerda icon bor" width="19" height="12">
+
+                        </button>
+
+                    </div>
+
+                    <div class="chacced-info-wrapper">
+
+                        <label class="form__label">
+                            <input name="coffe" type="radio" value="Wholebean"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Wholebean</h4>
+                                <p>Best choice if you cherish the full sensory experience</p>
+                            </span>
+                        </label>
+
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Filter"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Filter</h4>
+                                <p>For drip or pour-over coffee methods such as V60 or Aeropress</p>
+                            </span>
+                        </label>
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Cafetiére"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Cafetiére</h4>
+                                <p>Course ground beans specially suited for french press coffee</p>
+                            </span>
+
+                        </label>
+
+
+
+
+                    </div>
+
+
+                    <!-- ================================================= -->
+
+                    <div class="box-right__wrapper-header">
+
+                        <h3 class="service__box-right__heading">How often should we deliver?</h3>
+
+                        <button class="box-right__button-icon">
+                            <img class="service__box-right__image" id='Deliveries' src="./images/icon-top.svg"
+                                alt="bu yerda icon bor" width="19" height="12">
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="chacced-info-wrapper">
+
+                        <label class="form__label">
+                            <input name="coffe" type="radio" value="Every week"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Every week</h4>
+                                <p>$7.20 per shipment. Includes free first-class shipping.</p>
+                            </span>
+                        </label>
+
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Every 2 weeks"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Every 2 weeks</h4>
+                                <p>$9.60 per shipment. Includes free priority shipping.</p>
+                            </span>
+                        </label>
+
+                        <label class="form__label">
+
+                            <input name="coffe" type="radio" value="Every month"
+                                class="chacced-info-wrapper__checbox visually-hidden">
+                            <span class="checced_info-wrapper__span">
+                                <h4>Every month</h4>
+                                <p>$12.00 per shipment. Includes free priority shipping.</p>
+                            </span>
+
+
+
+                        </label>
+
+                    </div>
+
+
+                    <div class="Order-Summary">
+
+                        <small>Order Summary</small>
+
+                        <p>“I drink my coffee as <span>Filter</span>, with a <span>Decaf</span> type of bean.
+                            <span>250g</span> ground ala <span>Cafetiére</span>, sent to
+                            me <span>Every Week</span>.”
+                        </p>
+
+                    </div>
+
+                    <button class="Order-Summary__button" type="submit"> Create my plan!</button>
+
+                </form>
+
+
+            </div>
+
+
+
+        </section>
+
 
 
     </main>
+
+    <footer>
+
+        <div class="container">
+
+            <div class="site-footer">
+
+                <a class="site-footer__logo" href="#"><img src="./images/footer-logo.png" alt="sayt logotivi"
+                        width="236" height="26"></a>
+                <a class="site-footer__link" href="#">HOME</a>
+                <a class="site-footer__link" href="#">ABOUT US</a>
+                <a class="site-footer__link" href="#">CREATE YOUR PLAN</a>
+                <a class="site-footer__messenjer icon_facebook" href="#"><img src="./images/facebook.svg"
+                        alt="facebook ikonkasi"></a>
+                <a class="site-footer__messenjer" href="#"><img src="./images/twitter.svg" alt="twitter ikonkasi"></a>
+                <a class="site-footer__messenjer" href="#"><img src="./images/instagram.svg"
+                        alt="instagram ikonkasi"></a>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 
 

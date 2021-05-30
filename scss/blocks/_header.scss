@@ -45,6 +45,21 @@
     border-radius: 10px;
 }
 
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  .header__hero-section{
+    background-image: url(../images/background-image@2x.png);
+    background-size: cover;
+  }
+}
+
 .hero-section__info{
    display: flex;
    flex-direction: column;
